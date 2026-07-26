@@ -1,8 +1,15 @@
 aid: evertrue
 name: EverTrue
-description: 'EverTrue is a company surfaced as a portfolio company of bain-capital-ventures, techstars
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'EverTrue is a donor experience and fundraising platform for nonprofit,
+  higher-education, and healthcare advancement teams, serving more than 13,000 teams.
+  Its product suite spans AI-driven prospect identification and research (Signal,
+  DonorSearch), donor outreach and stewardship (ThankView personalized video, Pledgemine
+  direct mail), and endowment reporting (Balance, Impact, ODDER). EverTrue integrates
+  with advancement CRMs such as Blackbaud Raiser''s Edge NXT via an automated data
+  sync. EverTrue operates as a closed B2B SaaS: it runs internal REST APIs behind
+  its iOS, Android, and single-page web applications but does not publish a public
+  developer portal, OpenAPI specification, or self-serve API program. Backed by Bain
+  Capital Ventures and Techstars.'
 url: https://raw.githubusercontent.com/api-evangelist/evertrue/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +18,31 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.evertrue.com/wp-content/uploads/2026/01/New-Evertrue-logoHomepage-A.png
 tags:
 - Company
 - Ai Apps
+- Fundraising
+- Nonprofit
+- Donor Management
+- Higher Education
+- Advancement
+- Prospect Research
+- Stewardship
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +52,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.evertrue.com/
+- type: Login
+  url: https://accounts.evertrue.com/
+- type: Support
+  url: https://www.evertrue.com/support/
+- type: HelpCenter
+  url: https://help.evertrue.com/
+- type: Blog
+  url: https://www.evertrue.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/evertrue
+- type: TermsOfService
+  url: https://www.evertrue.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.evertrue.com/privacy-policy/
+- type: LLMsTxt
+  url: llms/evertrue-llms.txt
+- type: DomainSecurity
+  url: security/evertrue-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
