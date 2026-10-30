@@ -64,6 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-EverTrue is a company surfaced as a portfolio company of bain-capital-ventures, techstars and added to the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile is a lead awaiting the enrichment pipeline.
+EverTrue is a donor experience and fundraising platform for nonprofit, higher-education, and healthcare advancement teams, serving more than 13,000 teams. Its product suite spans AI-driven prospect identification and research (Signal, DonorSearch), donor outreach and stewardship (ThankView personalized video, Pledgemine direct mail), and endowment reporting (Balance, Impact, ODDER). EverTrue integrates with advancement CRMs such as Blackbaud Raiser's Edge NXT via an automated data sync. EverTrue operates as a closed B2B SaaS: it runs internal REST APIs behind its iOS, Android, and single-page web applications but does not publish a public developer portal, OpenAPI specification, or self-serve API program. Backed by Bain Capital Ventures and Techstars.
 
-Backed by: bain-capital-ventures, techstars — https://www.evertrue.com/
+**Areas:** Company · Ai Apps · Fundraising · Non-Profit · Donor Management · Higher Education · Advancement · Prospect Research · Stewardship
+
+## EverTrue on APIs.io
+
+Everything profiled for EverTrue is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/evertrue/](https://apis.io/providers/evertrue/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Evertrue Domain Security](https://apis.io/security/evertrue/evertrue-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.evertrue.com/)
+- [Documentation](https://help.evertrue.com/category/guides)
+- [Getting started](https://help.evertrue.com/t/p8hc02b/lesson-1-getting-started)
+- [Support](https://www.evertrue.com/support/)
+- [Blog](https://www.evertrue.com/blog/)
+- [Terms of service](https://www.evertrue.com/terms-and-conditions/)
+- [Privacy policy](https://www.evertrue.com/privacy-policy/)
+- [GitHub](https://github.com/evertrue)
+- [Status](https://status.evertrue.com/)
+
+## API Evangelist rating
+
+**Kin Score 18.6** — emerging · rubric 0.24.0 · scored 2026-10-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 27.6 |
+
+**Agent readiness 2.9** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/evertrue/](https://apis.io/providers/evertrue/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for EverTrue: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/evertrue/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
